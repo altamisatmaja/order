@@ -23,6 +23,11 @@ create .env by copy and rename .env.example
 cp .env.example .env
 ```
 
+install dependencies by:
+```
+composer i
+```
+
 add key of your laravel by:
 ```
 php artisan key:generate

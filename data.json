@@ -1,0 +1,35 @@
+{
+    "prompt": [
+      {
+        "element": "Box Type",
+        "description": "A 3D isometric illustration of a closed cardboard shipping box"
+      },
+      {
+        "element": "Branding",
+        "description": "Two yellow Gotip logo stickers",
+        "font" : "Montserrat"
+      },
+      {
+        "element": "Sealing",
+        "description": "Sealed with white packing tape"
+      },
+      {
+        "element": "Labels",
+        "description": "A barcode label and a shipping label on the side"
+      },
+      {
+        "element": "Symbols",
+        "description": "Upward arrow fragile sign indicating box orientation"
+      },
+      {
+        "element": "Perspective",
+        "description": "Shown at an angle (isometric view)"
+      },
+      {
+        "element": "Background",
+        "description": "Simple plain white background"
+      }
+    ],
+    "size": "512x512"
+  }
+  

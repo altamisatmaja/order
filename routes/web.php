@@ -1,5 +1,7 @@
 <?php
 
+use App\Http\Controllers\EloquentExampleController;
+use App\Http\Controllers\QueryBuilderController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -16,3 +18,6 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome');
 });
+
+Route::get('query', [QueryBuilderController::class, 'index']);
+Route::get('eloquent', [EloquentExampleController::class, 'index']);

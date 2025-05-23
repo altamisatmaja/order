@@ -4,36 +4,43 @@ open your cmd or terminal
 
 make sure u're in the folder where u want this project to be cloned
 example by me is in:
+
 ```
 ~/Documents/
 ```
 
 git clone this repo by:
+
 ```
 git clone git@github.com:altamisatmaja/order.git
 ```
 
 masuk ke dalam project
+
 ```
 cd order
 ```
 
 create .env by copy and rename .env.example
+
 ```
 cp .env.example .env
 ```
 
 install dependencies by:
+
 ```
 composer i
 ```
 
 add key of your laravel by:
+
 ```
 php artisan key:generate
 ```
 
 add database conf by add this 👇 in .env
+
 ```
 DB_CONNECTION=mysql
 DB_HOST=127.0.0.1
@@ -44,6 +51,7 @@ DB_PASSWORD=<kosongi jika ngga ada password>
 ```
 
 run migration + seeder
+
 ```
 php artisan migrate:fresh --seed
 ```
@@ -53,6 +61,14 @@ if error, check your configuration database and dont forget to start xampp/larag
 #done.
 
 u'all can run this project in local by:
+
 ```
 php artisan serve
 ```
+
+---
+
+query builder sama orm
+query builder
+
+<!-- cara atau teknik pengambilan sebuah data(mysql) menggunakan function/metode   -->

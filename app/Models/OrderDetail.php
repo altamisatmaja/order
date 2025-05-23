@@ -15,4 +15,9 @@ class OrderDetail extends Model
         'nama_produk',
         'harga_produk',
     ];
+
+    public function orderDetails(){
+        return $this->hasOne(Order::class, 'order_id');
+    }
+    
 }

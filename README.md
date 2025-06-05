@@ -1,3 +1,7 @@
+<img src="https://github.com/altamisatmaja/order/image.png" alt="">
+
+
+
 #how to clone?
 
 open your cmd or terminal

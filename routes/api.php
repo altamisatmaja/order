@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\OrderController;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
 
@@ -17,3 +18,10 @@ use Illuminate\Support\Facades\Route;
 Route::middleware('auth:sanctum')->get('/user', function (Request $request) {
     return $request->user();
 });
+
+// 2 route
+
+// 1. get
+Route::get('orders', [OrderController::class, 'lihat_data']);
+// 2. post
+Route::post('orders/tambah', [OrderController::class, 'tambah_data']);

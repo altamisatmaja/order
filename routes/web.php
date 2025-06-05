@@ -1,6 +1,7 @@
 <?php
 
 use App\Http\Controllers\EloquentExampleController;
+use App\Http\Controllers\OrderController;
 use App\Http\Controllers\QueryBuilderController;
 use Illuminate\Support\Facades\Route;
 
@@ -21,3 +22,4 @@ Route::get('/', function () {
 
 Route::get('query', [QueryBuilderController::class, 'index']);
 Route::get('eloquent', [EloquentExampleController::class, 'index']);
+Route::get('order', [OrderController::class, 'lihat_view']);
